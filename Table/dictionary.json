@@ -1,0 +1,75 @@
+{
+    "user": {
+        "name": {
+            "type": "String"
+        },
+        "isAdmin": {
+            "type": "Boolean",
+            "default": false
+        },
+        "email": {
+            "type": "String",
+            "unique": true
+        },
+        "password": {
+            "type": "String"
+        },
+        "address": {
+            "type": "String"
+        }
+    },
+    "jwt": {
+        "token": {
+            "type": "String"
+        },
+        "name": {
+            "type": "String"
+        },
+        "Built_Time": {
+            "type": "Date"
+        },
+        "logout": {
+            "type": "Boolean"
+        }
+    },
+    "item": {
+        "category": {
+            "type": "String"
+        },
+        "sub_category": {
+            "type": "String"
+        },
+        "item_name": {
+            "type": "String"
+        },
+        "price": {
+            "type": "Number"
+        },
+        "rating": {
+            "type": "Number"
+        },
+        "brand": {
+            "type": "String"
+        }
+    },
+    "order": {
+        "email": {
+            "type": "String"
+        },
+        "item_name": {
+            "type": "String"
+        },
+        "price": {
+            "type": "Number"
+        },
+        "address": {
+            "type": "String"
+        },
+        "category": {
+            "type": "String"
+        },
+        "date": {
+            "type": "Date"
+        }
+    }
+}
